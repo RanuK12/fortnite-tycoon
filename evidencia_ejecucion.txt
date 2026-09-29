@@ -1,0 +1,9 @@
+Verifying step 1: repo structure and README
+✓ verse exists
+✓ docs exists
+✓ design exists
+✓ README.md exists
+✓ README contains project title
+✓ README mentions Windows requirement
+✓ README describes project structure
+All checks passed.
