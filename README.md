@@ -1,19 +1,22 @@
-# Fortnite Tycoon
+# Fortnite Tycoon (UEFN)
 
-Mapa tycoon para Fortnite (UEFN/Verse) pensado para sesiones de 45+ minutos.
+Mapa **tycoon** para Fortnite creado con UEFN/Verse.  
+Objetivo: sesiones de 45+ minutos.
 
 ## Requisitos
 
-- **UEFN** (Unreal Editor for Fortnite) instalado en Windows.
-- Windows 10/11 (UEFN no funciona en macOS).
+- **Windows 10/11** con UEFN instalado (UEFN no funciona en macOS).  
+- Git para clonar el repositorio.  
 
 ## Estructura del proyecto
 
-- `verse/` – código Verse modular.
-- `docs/` – documentación y guías de uso.
-- `design/` – bocetos, diagramas y assets de diseño.
+- `verse/` – Código Verse modular.  
+- `docs/` – Documentación del diseño y guía de compilación.  
+- `design/` – Mockups, diagramas y assets conceptuales.  
 
 ## Compilación
 
-1. Abrir el proyecto en UEFN (Windows).
-2. Ejecutar **Build** → **Publish** para generar el mapa.
+1. Abrir UEFN en Windows.  
+2. `File → Open Project` y seleccionar la carpeta del proyecto.  
+3. Ejecutar `Verse → Build` para compilar.
+
