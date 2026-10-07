@@ -1,6 +1,6 @@
 # Fortnite Tycoon
 
-This repository contains Verse code for a Fortnite tycoon map that requires UEFN on Windows to compile and publish.
+Fortnite Tycoon is a UEFN/Verse map designed to be compiled and published on Windows, aiming to retain players 45+ minutes per session.
 
 Mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.
 
