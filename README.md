@@ -1,43 +1,40 @@
 # Fortnite Tycoon
 
-Un mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.
+**Un mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.**
 
-## Descripción
-Este proyecto está diseñado para ser un mapa tycoon en Fortnite usando la plataforma UEFN (Unreal Engine Fortnite). El proyecto está estructurado para ser compilado y publicado en una PC con Windows.
+## 📌 Descripción
+Fortnite Tycoon es un mapa tycoon para el motor UEFN (Unreal Engine Fortnite) que permite a los jugadores construir, gestionar y crecer un imperio virtual.
 
-## Requisitos
-- **Sistema Operativo:** Windows
-- **Herramientas:** UEFN (Unreal Engine Fortnite)
-- **Lenguaje:** Python
+## 🔧 Requisitos
+- **Windows** (UEFN no corre en macOS).
+- **Unreal Engine Fortnite (UEFN)** instalado.
+- **Compilador compatible** para generar el mapa.
 
-## Estructura del Proyecto
-
-El proyecto tiene la siguiente estructura:
-
+## 📂 Estructura del Proyecto
 ```
 /fortnite-tycoon
 ├── /verse
-│   ├── /core
-│   │   ├── building_system.verse
-│   │   ├── game_events.verse
-│   │   ├── game_mode.verse
-│   │   ├── player_data.verse
-│   │   └── save_system.verse
-│   └── /utils
+│   ├── /core          # Módulos principales del juego
+│   ├── /utils         # Utilidades y recursos
+│   └── *.verse        # Archivos de código Verse
 ├── /docs
-├── /design
-└── README.md
+│   ├── ARQUITECTURA.md # Documentación técnica
+│   └── GUIA_UEFN.md    # Guía para compilar en UEFN
+├── /design            # Guías de diseño
+└── README.md          # Este archivo
 ```
 
-## Instalación y Uso
+## 🛠️ Cómo Compilar y Publicar
+1. **Clona el repositorio** en una máquina con Windows.
+2. **Abre el proyecto en UEFN** y selecciona el archivo `building_system.verse` como punto de entrada.
+3. **Compila el proyecto** desde el editor de UEFN.
+4. **Publica el mapa** en tu servidor UEFN.
 
-1. Clona este repositorio.
-2. Asegúrate de tener instalado UEFN y los requisitos necesarios.
-3. Compila el proyecto en una PC con Windows usando UEFN.
-4. Publica el mapa en el servidor de Fortnite.
+## 📝 Documentación
+- [Guía para UEFN](docs/GUIA_UEFN.md)
+- [Arquitectura del proyecto](docs/ARQUITECTURA.md)
 
-## Contribuciones
-Si deseas contribuir, por favor revisa nuestro [CONTRIBUTING.md](docs/CONTRIBUTING.md).
+## 🚀 Contribuciones
+Si deseas contribuir, abre un **issue** o envía un **pull request** con mejoras.
 
-## Licencia
-Este proyecto está bajo la licencia MIT.
+---
