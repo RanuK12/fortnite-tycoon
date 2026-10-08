@@ -1,39 +1,26 @@
 # Fortnite Tycoon
 
-Fortnite Tycoon is a UEFN/Verse map designed to be compiled and published on Windows, aiming to retain players 45+ minutes per session.
+A tycoon-style map for Fortnite created with UEFN (Unreal Editor for Fortnite) and Verse.
 
-Mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.
+## Description
+This project provides a modular Verse codebase and step-by-step instructions for building a tycoon game in Fortnite designed to retain players for 45+ minutes per session. The map includes core tycoon mechanics such as resource collection, building upgrades, and progression systems.
 
-## Descripción
+## Requirements
+- **UEFN (Unreal Editor for Fortnite)** installed on a Windows PC.
+- Verse language support (included with UEFN).
+- This project **does not compile or run on macOS/Linux**; UEFN requires Windows.
 
-Un mapa tycoon completo para Fortnite creado con UEFN y Verse. Los jugadores construirán su propio imperio, gestionarán recursos y competirán para alcanzar la máxima rentabilidad en sesiones extendidas.
+## Project Structure
+- `verse/` - Contains all Verse scripts organized by module.
+- `docs/` - Detailed documentation, UEFN setup guide, and design specifications.
+- `design/` - Game design documents, flowcharts, and balancing notes.
 
-## Requisitos
+## Getting Started
+1. Clone this repository to your Windows machine.
+2. Open the project in UEFN.
+3. Refer to `docs/setup.md` for initial configuration.
+4. Implement the Verse scripts from `verse/` into your UEFN project.
+5. Follow the design guidelines in `design/` to assemble the map.
 
-- **UEFN** (Unreal Editor for Fortnite) instalado en Windows.
-- Windows 10/11 (UEFN no funciona en macOS).
-- Fortnite cuenta activa para publicación.
-
-## Estructura del proyecto
-
-- `verse/` – código Verse modular con sistemas de juego.
-  - `core/` – sistemas fundamentales (save, player, eventos, construcción)
-- `docs/` – documentación detallada y guías de uso.
-  - `GUIA_UEFN.md` – guía completa para UEFN
-  - `ARQUITECTURA.md` – documentación técnica
-- `design/` – bocetos, diagramas y assets de diseño.
-
-## Compilación y publicación
-
-1. Abrir el proyecto en UEFN (Windows).
-2. Ejecutar **Build** → **Publish** para generar el mapa.
-3. Publicar en Fortnite Creator Code.
-
-## Desarrollado por
-
-- **Emilio Ranucoli** (RanuK12)
-- Para más información: https://github.com/RanuK12/fortnite-tycoon
-
-## Licencia
-
-[Información de licencia pendiente]
+## License
+Private.
