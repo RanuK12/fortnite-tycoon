@@ -1,36 +1,43 @@
 # Fortnite Tycoon
 
-**Mapa Tycoon para Fortnite (UEFN/Verse)**
+Un mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.
 
-Un mapa **modular** diseñado para retener jugadores en sesiones de **45+ minutos**, optimizado para **UEFN** y listo para ser compilado y publicado en Fortnite. Este proyecto está pensado para ser utilizado por desarrolladores que deseen crear experiencias personalizadas en el juego.
+## Descripción
+Este proyecto está diseñado para ser un mapa tycoon en Fortnite usando la plataforma UEFN (Unreal Engine Fortnite). El proyecto está estructurado para ser compilado y publicado en una PC con Windows.
 
-## 📂 Estructura del Proyecto
+## Requisitos
+- **Sistema Operativo:** Windows
+- **Herramientas:** UEFN (Unreal Engine Fortnite)
+- **Lenguaje:** Python
 
-- **/verse**: Código fuente de Verse, listo para ser compilado con UEFN.
-- **/docs**: Documentación técnica detallada para configurar y compilar el mapa en UEFN. Aquí encontrarás guías paso a paso y requisitos técnicos.
-- **/design**: Guías de diseño y assets visuales para personalizar el mapa según tus necesidades.
+## Estructura del Proyecto
 
-## 🔧 Requisitos para Compilación y Uso
+El proyecto tiene la siguiente estructura:
 
-- **Sistema operativo**: **Windows** (UEFN no es compatible con macOS o Linux).
-- **Herramientas**: 
-  - **UEFN (Unreal Engine Fortnite)** instalado y configurado.
-  - Versión compatible de **Unreal Engine** para compilar el mapa.
+```
+/fortnite-tycoon
+├── /verse
+│   ├── /core
+│   │   ├── building_system.verse
+│   │   ├── game_events.verse
+│   │   ├── game_mode.verse
+│   │   ├── player_data.verse
+│   │   └── save_system.verse
+│   └── /utils
+├── /docs
+├── /design
+└── README.md
+```
 
-## 🎯 Objetivo del Proyecto
+## Instalación y Uso
 
-Este proyecto busca ofrecer:
-- Un **código modular** en Verse para facilitar la personalización.
-- **Instrucciones claras** para compilar y publicar el mapa usando UEFN.
-- Un mapa listo para ser ejecutado en Windows, optimizado para sesiones largas y retención de jugadores.
+1. Clona este repositorio.
+2. Asegúrate de tener instalado UEFN y los requisitos necesarios.
+3. Compila el proyecto en una PC con Windows usando UEFN.
+4. Publica el mapa en el servidor de Fortnite.
 
-## 🚀 ¿Cómo Usar este Proyecto?
+## Contribuciones
+Si deseas contribuir, por favor revisa nuestro [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
-1. Clona este repositorio en tu máquina con Windows.
-2. Abre el proyecto en **UEFN** y sigue las instrucciones en `/docs` para compilar.
-3. Publica el mapa en tu servidor de Fortnite.
-4. ¡Disfruta de un mapa Tycoon con sesiones largas y entretenidas!
-
----
-
----
+## Licencia
+Este proyecto está bajo la licencia MIT.
