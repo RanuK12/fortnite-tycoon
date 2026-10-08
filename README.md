@@ -1,26 +1,22 @@
 # Fortnite Tycoon
 
-A tycoon-style map for Fortnite created with UEFN (Unreal Editor for Fortnite) and Verse.
+**Mapa Tycoon para Fortnite (UEFN/Verse)**
 
-## Description
-This project provides a modular Verse codebase and step-by-step instructions for building a tycoon game in Fortnite designed to retain players for 45+ minutes per session. The map includes core tycoon mechanics such as resource collection, building upgrades, and progression systems.
+Un mapa diseñado para retener jugadores en sesiones de **45+ minutos**, optimizado para UEFN y compilable en Windows.
 
-## Requirements
-- **UEFN (Unreal Editor for Fortnite)** installed on a Windows PC.
-- Verse language support (included with UEFN).
-- This project **does not compile or run on macOS/Linux**; UEFN requires Windows.
+## Estructura del Proyecto
 
-## Project Structure
-- `verse/` - Contains all Verse scripts organized by module.
-- `docs/` - Detailed documentation, UEFN setup guide, and design specifications.
-- `design/` - Game design documents, flowcharts, and balancing notes.
+- **/verse**: Código fuente de Verse.
+- **/docs**: Documentación técnica y guías para UEFN.
+- **/design**: Guías de diseño y assets visuales.
 
-## Getting Started
-1. Clone this repository to your Windows machine.
-2. Open the project in UEFN.
-3. Refer to `docs/setup.md` for initial configuration.
-4. Implement the Verse scripts from `verse/` into your UEFN project.
-5. Follow the design guidelines in `design/` to assemble the map.
+## Requisitos
 
-## License
-Private.
+- **Sistema operativo**: Windows (UEFN no es compatible con macOS).
+- **Herramientas**: UEFN instalado para compilar y publicar el mapa.
+
+## Objetivo
+
+Este proyecto busca ofrecer un mapa modular y listo para ser compilado y publicado en Fortnite, con instrucciones claras para usuarios de UEFN.
+
+---
