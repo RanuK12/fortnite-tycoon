@@ -1,5 +1,27 @@
 # Fortnite Tycoon
 
+**Descripción:**
+Un mapa tycoon para Fortnite basado en UEFN (Unreal Engine Fortnite) diseñado para retener jugadores por más de 45 minutos por sesión.
+
+**Requisitos:**
+- **Sistema Operativo:** Windows 10 o superior.
+- **Software:** Unreal Engine 4 (versión compatible con UEFN) y Fortnite Creator Kit.
+- **Herramientas de Desarrollo:** Git, Visual Studio 2019 o superior.
+
+**Estructura del Proyecto:**
+- `/verse`: Archivos de código para UEFN.
+- `/docs`: Documentación técnica y guías de uso.
+- `/design`: Guías de diseño y estilo visual.
+
+**Guía de Compilación:**
+1. Clona este repositorio en tu máquina local.
+2. Abre el proyecto en Unreal Engine 4.
+3. Compila el mapa utilizando el Fortnite Creator Kit.
+4. Publica el mapa en el editor de Fortnite.
+
+**Contribuciones:**
+Si deseas contribuir, revisa el archivo `CONTRIBUTING.md` para más detalles.
+
 **Un mapa tycoon para Fortnite (UEFN/Verse) diseñado para retener 45+ minutos por sesión.**
 
 🔴 **Importante:** Este proyecto **requiere Windows** para su compilación y ejecución, ya que UEFN (Unreal Engine Fortnite) no es compatible con macOS.
