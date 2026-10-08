@@ -1,5 +1,26 @@
-Módulo de prueba cargado correctamente.
-El proyecto está listo para ser compilado y publicado en UEFN.
+=== Verificación de README.md ===
+Fecha: Thu Oct  8 14:22:31 CEST 2026
+Tamaño del archivo:
+      35 README.md
+Primeras 10 líneas:
+# Fortnite Tycoon
 
-Comando ejecutado:
-node verse/core/test_module.js
+**Mapa Tycoon para Fortnite (UEFN/Verse)**
+
+Un mapa **modular** diseñado para retener jugadores en sesiones de **45+ minutos**, optimizado para **UEFN** y listo para ser compilado y publicado en Fortnite. Este proyecto está pensado para ser utilizado por desarrolladores que deseen crear experiencias personalizadas en el juego.
+
+## 📂 Estructura del Proyecto
+
+- **/verse**: Código fuente de Verse, listo para ser compilado con UEFN.
+- **/docs**: Documentación técnica detallada para configurar y compilar el mapa en UEFN. Aquí encontrarás guías paso a paso y requisitos técnicos.
+- **/design**: Guías de diseño y assets visuales para personalizar el mapa según tus necesidades.
+
+## 🔧 Requisitos para Compilación y Uso
+
+- **Sistema operativo**: **Windows** (UEFN no es compatible con macOS o Linux).
+- **Herramientas**: 
+  - **UEFN (Unreal Engine Fortnite)** instalado y configurado.
+  - Versión compatible de **Unreal Engine** para compilar el mapa.
+
+## 🎯 Objetivo del Proyecto
+=== Fin de verificación ===
