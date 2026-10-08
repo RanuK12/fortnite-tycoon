@@ -1,2 +1,5 @@
 Módulo de prueba cargado correctamente.
 El proyecto está listo para ser compilado y publicado en UEFN.
+
+Comando ejecutado:
+node verse/core/test_module.js
