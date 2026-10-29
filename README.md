@@ -9,8 +9,18 @@ Mapa Tycoon para Fortnite (UEFN/Verse) pensado para sesiones de 45 + minutos
 
 ## Estructura
 - `verse/` – Código Verse modular.
+- `verse/core/` – Sistemas principales del juego.
+- `verse/utils/` – Utilidades y helpers.
 - `docs/` – Documentación del proyecto.
 - `design/` – Bocetos, diagramas y assets de diseño.
+
+## Sistema de Eventos
+El proyecto incluye un sistema de eventos modular (`game_events.verse`) que permite:
+
+- **Eventos principales**: `OnBuildingPlaced`, `OnResourceGained`, `OnPlayerLevelUp`, `OnGameStateChanged`, `OnQuestCompleted`, `OnItemPurchased`
+- **Tipado fuerte**: Estructuras de datos específicas para cada tipo de evento
+- **EventBus central**: Gestiona suscripciones y emisiones de eventos
+- **Modularidad**: Los sistemas pueden comunicarse sin acoplamiento directo
 
 ## Compilación
 1. Abrir UEFN en Windows.
