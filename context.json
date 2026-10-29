@@ -1,0 +1,10 @@
+{
+  "repo": "fortnite-tycoon",
+  "description": "Implement system of events for Fortnite tycoon",
+  "files": ["verse/core/game_events.verse", "verse/core/game_events_test.verse", "README.md"],
+  "changes": "EventBus with strong typing for game events, main event types, helper functions, test suite, and README updates",
+  "size": "3 files, 250 lines added",
+  "purpose": "Foundation for modular communication between game systems",
+  "requested": true,
+  "code_executed": true
+}
